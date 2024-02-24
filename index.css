@@ -1,0 +1,450 @@
+/* Resetting default style */
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Fonts Classes*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .font-size-12{
+    font-size: 12px;
+  }
+  .font-size-14{
+    font-size: 14px;
+  }
+  .font-size-20{
+    font-size: 20px;
+  }
+
+  .gap-4{
+    gap: 4px;
+  }
+  .gap-8{
+    gap: 8px;
+  }
+
+  .justify-between{
+    justify-content: space-between;
+  }
+
+  .icon-small{
+    width: 18px;
+    height: 18px;
+  }
+  .icon-medium{
+    width: 20px;
+  }
+  .icon-large{
+    width: 30px;
+  }
+
+.wix-regular{
+    font-family: "Wix Madefor Display", sans-serif;
+}
+.container{
+  width: 100%;
+}
+
+  /* Navbar */
+  nav{
+    height: 60px;  
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 100px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  }
+  .flex-row{
+    display: flex;
+  }
+ 
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+ .down-arrow{
+    width: 16px;
+ }
+  .nav-logo{
+    flex: 1;
+    font-size: 24px;
+   display: flex;
+  }
+  .nav-logo>img{
+    width: 40px;
+    margin-right: 4px;
+  }
+  .nav-text{
+    justify-content: center;
+    gap: 20px;
+    flex: 2;
+  }
+
+  .nav-side-options{
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+
+  .nav-icon{
+    width: 20px;
+    font-weight: 200;
+  }
+  .offer-banner{
+    width: 100%;
+    padding-inline: 10px;
+    background-color: green;
+    color: #ffff;
+    align-items: center;
+    display: flex;
+    padding: 6px;
+  }
+  .banner-text{
+    width: 100%;
+    gap: 20px;
+    font-size: 12px;
+    justify-content: space-around;
+
+  }
+  .dicount-icon{
+    width: 25px;
+    font-size: 15px;
+  }
+
+  .offers{
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* Cart */
+  .cart-container{
+    padding-inline: 100px;
+    gap: 20px;
+  }
+  .cart-heading-text{
+    padding: 12px;
+    margin-bottom: 4px;
+    padding-inline: 40px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 0.5px solid gray;
+  }
+
+  .cart-items{
+    flex:2;
+  }
+  .cart-price{
+    flex: 1;
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  .item{
+    height: 200px;
+    gap: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+.item-image{
+    width: 200px;
+    object-fit: contain;
+}
+
+  .quantity{
+    gap: 6px;  
+  }
+.quantity-add{
+    background-color: khaki;
+    padding-inline: 6px;
+   border-radius: 2px;
+   
+}
+.quantity-heading{
+    font-size: 14px;
+}
+
+fieldset{
+    padding: 20px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+input{
+  border: 1px solid gray;
+  padding: 6px;
+  border-radius: 4px;
+}
+.btn-submit{
+  background: tomato;
+  border: none;
+  padding: 7px;
+  padding-inline: 8px;
+  color: #ffff;
+}
+.mb-4{
+  margin-bottom: 4px;
+}
+.btn-checkout{
+  color: #fff;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  gap: 2px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.btn-checkout-2{
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  padding-bottom: 8px;
+  gap: 2px;
+  border-radius: 10px;
+  background: rgb(86, 86, 228);
+}
+.btn-checkout>img{
+  width: 30px;
+  height: 30px;
+}
+.btn-checkout-2>img{
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.add-options{
+  margin-top: 10px;
+  gap: 40px;
+}
+.add-options>p{
+border: 1px solid gray; 
+padding: 10px;
+border-radius: 6px;
+cursor: pointer;
+}
+.menu{
+  display: none;
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: brown;
+        color: black;
+    }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) 
+    and (device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: cornflowerblue;
+        color: black;
+    }
+}
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 950px) {
+  .cart-container{
+    padding-inline: 40px;
+  }
+}
+@media only screen and (max-width: 950px) and (min-width: 150px) {
+  .cart-container{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 30px;
+  }
+  .cart-items{
+  padding: 0;
+}
+.nav-text{
+  display: none;
+}
+.menu{
+  display: block;
+}
+.nav-side-options{
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+nav{
+  justify-content: space-between;
+  padding-inline: 40px;
+} 
+.item{
+  display: flex;
+  height: min-content;
+}
+.item-image{
+  width: 30%;
+  max-height: 170px;
+  object-fit: contain;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 150px) {
+  h3{
+    font-size: 16px;
+  }
+  .item{
+    height: min-content;
+    
+  }
+  .item-image{
+    width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+    justify-content: start;
+  }
+  .items-text{
+    width: 100%;
+  }
+  .add-options{
+    justify-content: end;
+    gap: 36px;
+  }
+  .add-options>.wishlist{
+    padding-inline: 8px;
+    font-size: 10px;
+
+  }
+  nav{
+    padding-inline: 12px;
+  }
+  .wishlist >span{
+    display: none;
+  }
+}
